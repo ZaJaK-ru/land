@@ -36,11 +36,10 @@ body {
 }
 
 .intro h1 { 
+  vertical-align: bottom;
   text-align: center;
   text-shadow: 1px 1px 2px black, 0 0 1em red;
   color: white; 
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .nav {
@@ -66,13 +65,8 @@ body {
 }
 
 .intro {
-  background-color: #432654;
-  overflow: hidden; 
-  background-size: cover; 
-  background-color: transparent; 
-  background-image: url('../img/bg.jpg'); 
-  background-position: 50%; 
-  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .features {
